@@ -8,6 +8,6 @@ for city in visited_cities:
     print(city)
 
 if "Paris" in visited_cities:
-    print("\nYou've been to Paris.")
+    print("\nYou've been to Paris!")
 else:
     print("\nYou haven't been to Paris yet.")
