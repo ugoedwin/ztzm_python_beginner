@@ -3,7 +3,7 @@ visited_cities.add("Tokyo")
 visited_cities.add("Berlin")
 visited_cities.discard("Sydney")
 
-print("Cities visited")
+print("Cities visited:")
 for city in visited_cities:
     print(city)
 
