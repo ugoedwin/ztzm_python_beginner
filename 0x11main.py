@@ -1,7 +1,12 @@
 items = []
 
 while True:
-    print("Welcome to Minimart!")
+    print("\n\nWelcome to Minimart!")
+    print("1. Add item to cart")
+    print("2. Remove item from cart")
+    print("3. View cart")
+    print("4. Checkout")
+
     option = int((input("Choose an option: ")))
 
     if option == 1:
@@ -11,6 +16,7 @@ while True:
         item = {item_name: item_quantity}
         items.append(item)
         print(item_name, "added to cart.")
+
     elif option == 2:
         item_name = input("Enter item name to remove: ")
 
@@ -34,10 +40,9 @@ while True:
         if len(items) == 0:
             print("Nothing (your cart was empty).")
         else:
-            print(items)
-
+            print(items)         
 
     else:
-         print("Invalid option. Please choose 1, 2, 3, or 4.")
+         print("Invalid choice. Please choose 1, 2, 3, or 4.")
 
          break
