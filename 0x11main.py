@@ -43,6 +43,6 @@ while True:
             print(items)         
 
     else:
-         print("Invalid choice. Please choose 1, 2, 3, or 4.")
+         print("Invalid choice. Please select 1, 2, 3, or 4.")
 
          break
